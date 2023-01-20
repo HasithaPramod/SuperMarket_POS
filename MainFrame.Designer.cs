@@ -1,6 +1,6 @@
 ﻿namespace hasitha
 {
-    partial class Form3
+    partial class MainFrame
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainFrame));
             this.profitLossReportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salesReportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.viewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -263,7 +263,7 @@
             // 
             this.returnProductToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("returnProductToolStripMenuItem.Image")));
             this.returnProductToolStripMenuItem.Name = "returnProductToolStripMenuItem";
-            this.returnProductToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.returnProductToolStripMenuItem.Size = new System.Drawing.Size(209, 26);
             this.returnProductToolStripMenuItem.Text = "Return Product";
             // 
             // transectionToolStripMenuItem
@@ -860,6 +860,7 @@
             this.toolStripStatusLabel8.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.toolStripStatusLabel8.ToolTipText = "Sales Report";
             this.toolStripStatusLabel8.VisitedLinkColor = System.Drawing.Color.Black;
+            this.toolStripStatusLabel8.Click += new System.EventHandler(this.toolStripStatusLabel8_Click);
             // 
             // fontDialog1
             // 
@@ -885,7 +886,7 @@
             this.toolTipInfo.ReshowDelay = 1;
             this.toolTipInfo.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
             // 
-            // Form3
+            // MainFrame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -894,8 +895,8 @@
             this.Controls.Add(this.statusStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "Form3";
-            this.Text = "Form3";
+            this.Name = "MainFrame";
+            this.Text = "MainFrame";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.contextMenu_Home.ResumeLayout(false);

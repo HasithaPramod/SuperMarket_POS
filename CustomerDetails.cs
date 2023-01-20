@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace hasitha
 {
-    public partial class Form3 : Form
+    public partial class CustomerDetails : Form
     {
-        public Form3()
+        public CustomerDetails()
         {
             InitializeComponent();
-        }
-
-        private void exitToolStripMenuItem2_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
         }
     }
 }
