@@ -16,5 +16,10 @@ namespace hasitha
         {
             InitializeComponent();
         }
+
+        private void exitToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

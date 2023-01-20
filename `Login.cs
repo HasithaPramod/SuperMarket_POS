@@ -46,5 +46,12 @@ namespace hasitha
             txtUserName.Clear();
             txtPassword.Clear();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form3 f2 = new Form3();
+            f2.Show();
+            this.Hide();
+        }
     }
 }
