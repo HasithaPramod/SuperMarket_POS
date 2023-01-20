@@ -323,9 +323,9 @@
             this.toolStripMenuItem3,
             this.toolStripMenuQuickSale,
             this.toolStripMenuItem4});
-            this.menuStrip1.Location = new System.Drawing.Point(94, 0);
+            this.menuStrip1.Location = new System.Drawing.Point(83, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1607, 34);
+            this.menuStrip1.Size = new System.Drawing.Size(1618, 34);
             this.menuStrip1.TabIndex = 5;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -345,19 +345,19 @@
             // 
             this.userProfileToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("userProfileToolStripMenuItem.Image")));
             this.userProfileToolStripMenuItem.Name = "userProfileToolStripMenuItem";
-            this.userProfileToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.userProfileToolStripMenuItem.Size = new System.Drawing.Size(183, 26);
             this.userProfileToolStripMenuItem.Text = "User Profile";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(221, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(180, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("exitToolStripMenuItem.Image")));
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(183, 26);
             this.exitToolStripMenuItem.Text = "Sign Out";
             // 
             // addToolStripMenuItem1
@@ -664,7 +664,7 @@
             this.toolStripStatusLabel7.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.toolStripStatusLabel7.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripStatusLabel7.Name = "toolStripStatusLabel7";
-            this.toolStripStatusLabel7.Size = new System.Drawing.Size(92, 57);
+            this.toolStripStatusLabel7.Size = new System.Drawing.Size(81, 57);
             this.toolStripStatusLabel7.Text = "--";
             this.toolStripStatusLabel7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.toolStripStatusLabel7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -680,7 +680,7 @@
             this.toolStripStatusLabel6.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.toolStripStatusLabel6.LinkVisited = true;
             this.toolStripStatusLabel6.Name = "toolStripStatusLabel6";
-            this.toolStripStatusLabel6.Size = new System.Drawing.Size(92, 52);
+            this.toolStripStatusLabel6.Size = new System.Drawing.Size(81, 52);
             this.toolStripStatusLabel6.Text = "Sign Out";
             this.toolStripStatusLabel6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.toolStripStatusLabel6.ToolTipText = "Items";
@@ -697,7 +697,7 @@
             this.toolStripStatusLabel4.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.toolStripStatusLabel4.LinkVisited = true;
             this.toolStripStatusLabel4.Name = "toolStripStatusLabel4";
-            this.toolStripStatusLabel4.Size = new System.Drawing.Size(92, 44);
+            this.toolStripStatusLabel4.Size = new System.Drawing.Size(81, 44);
             this.toolStripStatusLabel4.Text = "Employees";
             this.toolStripStatusLabel4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.toolStripStatusLabel4.ToolTipText = "Employees";
@@ -714,7 +714,7 @@
             this.toolStripStatusLabel5.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.toolStripStatusLabel5.LinkVisited = true;
             this.toolStripStatusLabel5.Name = "toolStripStatusLabel5";
-            this.toolStripStatusLabel5.Size = new System.Drawing.Size(92, 52);
+            this.toolStripStatusLabel5.Size = new System.Drawing.Size(81, 52);
             this.toolStripStatusLabel5.Text = "Analysis";
             this.toolStripStatusLabel5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.toolStripStatusLabel5.ToolTipText = "Sales Report";
@@ -731,8 +731,8 @@
             this.toolStripStatusLabel9.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.toolStripStatusLabel9.LinkVisited = true;
             this.toolStripStatusLabel9.Name = "toolStripStatusLabel9";
-            this.toolStripStatusLabel9.Size = new System.Drawing.Size(92, 52);
-            this.toolStripStatusLabel9.Text = "Sales Report";
+            this.toolStripStatusLabel9.Size = new System.Drawing.Size(81, 52);
+            this.toolStripStatusLabel9.Text = "Sales";
             this.toolStripStatusLabel9.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.toolStripStatusLabel9.ToolTipText = "Sales Report";
             this.toolStripStatusLabel9.VisitedLinkColor = System.Drawing.Color.Black;
@@ -748,7 +748,7 @@
             this.toolStripStatusLabel2.LinkColor = System.Drawing.SystemColors.HotTrack;
             this.toolStripStatusLabel2.LinkVisited = true;
             this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-            this.toolStripStatusLabel2.Size = new System.Drawing.Size(92, 52);
+            this.toolStripStatusLabel2.Size = new System.Drawing.Size(81, 52);
             this.toolStripStatusLabel2.Text = "Stock";
             this.toolStripStatusLabel2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.toolStripStatusLabel2.ToolTipText = "Items";
@@ -767,7 +767,7 @@
             this.salesRegistertoolStripStatus.LinkColor = System.Drawing.SystemColors.HotTrack;
             this.salesRegistertoolStripStatus.LinkVisited = true;
             this.salesRegistertoolStripStatus.Name = "salesRegistertoolStripStatus";
-            this.salesRegistertoolStripStatus.Size = new System.Drawing.Size(92, 52);
+            this.salesRegistertoolStripStatus.Size = new System.Drawing.Size(81, 52);
             this.salesRegistertoolStripStatus.Tag = "Sales Register";
             this.salesRegistertoolStripStatus.Text = "Billing";
             this.salesRegistertoolStripStatus.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -840,7 +840,7 @@
             this.statusStrip1.Location = new System.Drawing.Point(0, 0);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 4, 1, 27);
-            this.statusStrip1.Size = new System.Drawing.Size(94, 880);
+            this.statusStrip1.Size = new System.Drawing.Size(83, 880);
             this.statusStrip1.TabIndex = 8;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -855,7 +855,7 @@
             this.toolStripStatusLabel8.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.toolStripStatusLabel8.LinkVisited = true;
             this.toolStripStatusLabel8.Name = "toolStripStatusLabel8";
-            this.toolStripStatusLabel8.Size = new System.Drawing.Size(92, 52);
+            this.toolStripStatusLabel8.Size = new System.Drawing.Size(81, 52);
             this.toolStripStatusLabel8.Text = "Customers";
             this.toolStripStatusLabel8.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.toolStripStatusLabel8.ToolTipText = "Sales Report";
