@@ -334,12 +334,14 @@
             this.productListToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.I)));
             this.productListToolStripMenuItem.Size = new System.Drawing.Size(374, 26);
             this.productListToolStripMenuItem.Text = "Stock Items";
+            this.productListToolStripMenuItem.Click += new System.EventHandler(this.productListToolStripMenuItem_Click);
             // 
             // purchaseHistoryToolStripMenuItem
             // 
             this.purchaseHistoryToolStripMenuItem.Name = "purchaseHistoryToolStripMenuItem";
             this.purchaseHistoryToolStripMenuItem.Size = new System.Drawing.Size(374, 26);
             this.purchaseHistoryToolStripMenuItem.Text = "Purchase history";
+            this.purchaseHistoryToolStripMenuItem.Click += new System.EventHandler(this.purchaseHistoryToolStripMenuItem_Click);
             // 
             // toolStripSeparator6
             // 
@@ -657,6 +659,7 @@
             this.toolStripStatusLabel2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.toolStripStatusLabel2.ToolTipText = "Items";
             this.toolStripStatusLabel2.VisitedLinkColor = System.Drawing.Color.Black;
+            this.toolStripStatusLabel2.Click += new System.EventHandler(this.toolStripStatusLabel2_Click);
             // 
             // salesRegistertoolStripStatus
             // 
@@ -808,7 +811,7 @@
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.statusStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainFrame";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MainFrame";

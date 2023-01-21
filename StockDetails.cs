@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace hasitha
 {
-    public partial class Form1 : Form
+    public partial class StockDetails : Form
     {
-        public Form1()
+        public StockDetails()
         {
             InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

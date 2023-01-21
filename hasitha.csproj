@@ -79,17 +79,17 @@
     <Compile Include="Categories.Designer.cs">
       <DependentUpon>Categories.cs</DependentUpon>
     </Compile>
-    <Compile Include="Purchase History.cs">
+    <Compile Include="PurchaseHistory.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Purchase History.Designer.cs">
-      <DependentUpon>Purchase History.cs</DependentUpon>
+    <Compile Include="PurchaseHistory.Designer.cs">
+      <DependentUpon>PurchaseHistory.cs</DependentUpon>
     </Compile>
-    <Compile Include="Stock Details.cs">
+    <Compile Include="StockDetails.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Stock Details.Designer.cs">
-      <DependentUpon>Stock Details.cs</DependentUpon>
+    <Compile Include="StockDetails.Designer.cs">
+      <DependentUpon>StockDetails.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -132,11 +132,11 @@
     <EmbeddedResource Include="Categories.resx">
       <DependentUpon>Categories.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Purchase History.resx">
-      <DependentUpon>Purchase History.cs</DependentUpon>
+    <EmbeddedResource Include="PurchaseHistory.resx">
+      <DependentUpon>PurchaseHistory.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Stock Details.resx">
-      <DependentUpon>Stock Details.cs</DependentUpon>
+    <EmbeddedResource Include="StockDetails.resx">
+      <DependentUpon>StockDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

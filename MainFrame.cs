@@ -63,5 +63,22 @@ namespace hasitha
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void productListToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            loadform(new StockDetails());
+            /*StockDetails f1= new StockDetails();
+            f1.Show();*/
+        }
+
+        private void toolStripStatusLabel2_Click(object sender, EventArgs e)
+        {
+            loadform(new StockDetails());
+        }
+
+        private void purchaseHistoryToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            loadform(new PurchaseHistory());
+        }
     }
 }
