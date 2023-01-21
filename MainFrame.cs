@@ -40,8 +40,6 @@ namespace hasitha
             this.mainPanel.Controls.Add(f);
             this.mainPanel.Tag= f;
             f.Show();
-
-
         }
     }
 }

@@ -208,6 +208,7 @@
             this.btnAddNewCustLink.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnAddNewCustLink.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnAddNewCustLink.UseVisualStyleBackColor = false;
+            this.btnAddNewCustLink.Click += new System.EventHandler(this.btnAddNewCustLink_Click);
             // 
             // txtCustomerSearch
             // 

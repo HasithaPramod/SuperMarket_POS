@@ -16,5 +16,12 @@ namespace hasitha
         {
             InitializeComponent();
         }
+
+        private void btnAddNewCustLink_Click(object sender, EventArgs e)
+        {
+            AddNewCustomer f1 = new AddNewCustomer();
+            f1.Show();
+        }
     }
+
 }
