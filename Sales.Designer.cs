@@ -131,7 +131,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.label4.Location = new System.Drawing.Point(202, 8);
+            this.label4.Location = new System.Drawing.Point(452, 9);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(206, 15);
             this.label4.TabIndex = 9;
@@ -144,7 +144,7 @@
             this.txtItemSearchBox.Font = new System.Drawing.Font("Times New Roman", 12.25F);
             this.txtItemSearchBox.Location = new System.Drawing.Point(199, 26);
             this.txtItemSearchBox.Name = "txtItemSearchBox";
-            this.txtItemSearchBox.Size = new System.Drawing.Size(451, 26);
+            this.txtItemSearchBox.Size = new System.Drawing.Size(459, 26);
             this.txtItemSearchBox.TabIndex = 6;
             this.toolTip1.SetToolTip(this.txtItemSearchBox, "Search Sales Item Details \r\n\r\nSearch  by item Name  , Sales No ");
             this.txtItemSearchBox.TextChanged += new System.EventHandler(this.txtItemSearchBox_TextChanged);

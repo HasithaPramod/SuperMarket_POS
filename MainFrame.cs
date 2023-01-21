@@ -117,7 +117,7 @@ namespace hasitha
 
         private void salesRegistertoolStripStatus_Click(object sender, EventArgs e)
         {
-
+            loadform(new Billing());
         }
 
         private void toolStripStatusLabel4_Click(object sender, EventArgs e)
