@@ -246,6 +246,7 @@
             this.userRegistrationToolStripMenuItem.Name = "userRegistrationToolStripMenuItem";
             this.userRegistrationToolStripMenuItem.Size = new System.Drawing.Size(299, 26);
             this.userRegistrationToolStripMenuItem.Text = "Add New User";
+            this.userRegistrationToolStripMenuItem.Click += new System.EventHandler(this.userRegistrationToolStripMenuItem_Click);
             // 
             // userToolStripMenuItem
             // 
@@ -264,7 +265,7 @@
             // 
             this.returnProductToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("returnProductToolStripMenuItem.Image")));
             this.returnProductToolStripMenuItem.Name = "returnProductToolStripMenuItem";
-            this.returnProductToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.returnProductToolStripMenuItem.Size = new System.Drawing.Size(209, 26);
             this.returnProductToolStripMenuItem.Text = "Return Product";
             // 
             // transectionToolStripMenuItem
@@ -346,19 +347,19 @@
             // 
             this.userProfileToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("userProfileToolStripMenuItem.Image")));
             this.userProfileToolStripMenuItem.Name = "userProfileToolStripMenuItem";
-            this.userProfileToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.userProfileToolStripMenuItem.Size = new System.Drawing.Size(183, 26);
             this.userProfileToolStripMenuItem.Text = "User Profile";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(221, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(180, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("exitToolStripMenuItem.Image")));
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(183, 26);
             this.exitToolStripMenuItem.Text = "Sign Out";
             // 
             // addToolStripMenuItem1

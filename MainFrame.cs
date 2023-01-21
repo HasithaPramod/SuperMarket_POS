@@ -47,5 +47,11 @@ namespace hasitha
             AddItem f3 = new AddItem();
             f3.Show();
         }
+
+        private void userRegistrationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UserRegistration f4= new UserRegistration();
+            f4.Show();
+        }
     }
 }
