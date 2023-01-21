@@ -87,5 +87,26 @@ namespace hasitha
             this.Hide();
             f2.Show();
         }
+
+        private void customerReportToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CustomerDetails f3 = new CustomerDetails();
+            this.Hide();
+            f3.Show();
+        }
+
+        private void workSheetToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            WorkSheet f4 = new WorkSheet();
+            this.Hide();
+            f4.Show();
+        }
+
+        private void toolStripMenuItem17_Click(object sender, EventArgs e)
+        {
+            AddCustormer f5 = new AddCustormer();
+            this.Hide();
+            f5.Show();
+        }
     }
 }

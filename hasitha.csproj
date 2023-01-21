@@ -61,6 +61,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddCustormer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCustormer.Designer.cs">
+      <DependentUpon>AddCustormer.cs</DependentUpon>
+    </Compile>
     <Compile Include="AddItem.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -129,6 +135,9 @@
     <Compile Include="WorkSheet.Designer.cs">
       <DependentUpon>WorkSheet.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddCustormer.resx">
+      <DependentUpon>AddCustormer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AddItem.resx">
       <DependentUpon>AddItem.cs</DependentUpon>
     </EmbeddedResource>

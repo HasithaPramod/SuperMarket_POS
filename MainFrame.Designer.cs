@@ -190,12 +190,14 @@
             this.toolStripMenuItem17.Name = "toolStripMenuItem17";
             this.toolStripMenuItem17.Size = new System.Drawing.Size(213, 22);
             this.toolStripMenuItem17.Text = "Add Customer/Supplier";
+            this.toolStripMenuItem17.Click += new System.EventHandler(this.toolStripMenuItem17_Click);
             // 
             // customerReportToolStripMenuItem
             // 
             this.customerReportToolStripMenuItem.Name = "customerReportToolStripMenuItem";
             this.customerReportToolStripMenuItem.Size = new System.Drawing.Size(213, 22);
             this.customerReportToolStripMenuItem.Text = "Customer Report";
+            this.customerReportToolStripMenuItem.Click += new System.EventHandler(this.customerReportToolStripMenuItem_Click);
             // 
             // toolStripMenuItem20
             // 
@@ -213,6 +215,7 @@
             this.workSheetToolStripMenuItem.Name = "workSheetToolStripMenuItem";
             this.workSheetToolStripMenuItem.Size = new System.Drawing.Size(243, 26);
             this.workSheetToolStripMenuItem.Text = "Work Sheet";
+            this.workSheetToolStripMenuItem.Click += new System.EventHandler(this.workSheetToolStripMenuItem_Click);
             // 
             // toolStripSeparator18
             // 
