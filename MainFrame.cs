@@ -121,7 +121,9 @@ namespace hasitha
 
         private void salesReportDetailsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            Sales q= new Sales();
+            this.Hide();
+            q.Show();
         }
 
         private void salesRegistertoolStripStatus_Click(object sender, EventArgs e)
@@ -134,6 +136,13 @@ namespace hasitha
             Employees f7= new Employees();
             this.Hide();
             f7.Show();
+        }
+
+        private void manageUserToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Employees f8= new Employees();
+            this.Hide();
+            f8.Show();
         }
     }
 }

@@ -33,6 +33,7 @@
             this.viewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salesReportDetailsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.salesReportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator13 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripMenuItem17 = new System.Windows.Forms.ToolStripMenuItem();
             this.customerReportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -97,7 +98,6 @@
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.toolTipInfo = new System.Windows.Forms.ToolTip(this.components);
             this.mainPanel = new System.Windows.Forms.Panel();
-            this.salesReportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.contextMenu_Home.SuspendLayout();
             this.contextStatus.SuspendLayout();
@@ -129,6 +129,14 @@
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
             this.toolStripSeparator3.Size = new System.Drawing.Size(200, 6);
+            // 
+            // salesReportToolStripMenuItem
+            // 
+            this.salesReportToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("salesReportToolStripMenuItem.Image")));
+            this.salesReportToolStripMenuItem.Name = "salesReportToolStripMenuItem";
+            this.salesReportToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.R)));
+            this.salesReportToolStripMenuItem.Size = new System.Drawing.Size(203, 26);
+            this.salesReportToolStripMenuItem.Text = "Sales Report";
             // 
             // toolStripSeparator13
             // 
@@ -179,6 +187,7 @@
             this.manageUserToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.E)));
             this.manageUserToolStripMenuItem.Size = new System.Drawing.Size(243, 26);
             this.manageUserToolStripMenuItem.Text = "Manage Employees";
+            this.manageUserToolStripMenuItem.Click += new System.EventHandler(this.manageUserToolStripMenuItem_Click);
             // 
             // userRegistrationToolStripMenuItem
             // 
@@ -716,19 +725,11 @@
             // 
             this.mainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.mainPanel.Location = new System.Drawing.Point(66, 28);
-            this.mainPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mainPanel.Margin = new System.Windows.Forms.Padding(2);
             this.mainPanel.Name = "mainPanel";
             this.mainPanel.Size = new System.Drawing.Size(974, 612);
             this.mainPanel.TabIndex = 9;
             this.mainPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.mainPanel_Paint);
-            // 
-            // salesReportToolStripMenuItem
-            // 
-            this.salesReportToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("salesReportToolStripMenuItem.Image")));
-            this.salesReportToolStripMenuItem.Name = "salesReportToolStripMenuItem";
-            this.salesReportToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.R)));
-            this.salesReportToolStripMenuItem.Size = new System.Drawing.Size(203, 26);
-            this.salesReportToolStripMenuItem.Text = "Sales Report";
             // 
             // MainFrame
             // 
