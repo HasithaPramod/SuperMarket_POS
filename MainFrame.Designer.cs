@@ -48,8 +48,6 @@
             this.manageUserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.userRegistrationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.userToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.returnProductToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.transectionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.userProfileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -255,23 +253,6 @@
             this.userToolStripMenuItem.Size = new System.Drawing.Size(49, 26);
             this.userToolStripMenuItem.Text = "User";
             // 
-            // returnProductToolStripMenuItem
-            // 
-            this.returnProductToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("returnProductToolStripMenuItem.Image")));
-            this.returnProductToolStripMenuItem.Name = "returnProductToolStripMenuItem";
-            this.returnProductToolStripMenuItem.Size = new System.Drawing.Size(170, 26);
-            this.returnProductToolStripMenuItem.Text = "Return Product";
-            // 
-            // transectionToolStripMenuItem
-            // 
-            this.transectionToolStripMenuItem.BackColor = System.Drawing.Color.Linen;
-            this.transectionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.returnProductToolStripMenuItem});
-            this.transectionToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
-            this.transectionToolStripMenuItem.Name = "transectionToolStripMenuItem";
-            this.transectionToolStripMenuItem.Size = new System.Drawing.Size(94, 26);
-            this.transectionToolStripMenuItem.Text = "Transactions";
-            // 
             // menuStrip1
             // 
             this.menuStrip1.BackColor = System.Drawing.Color.Linen;
@@ -280,7 +261,6 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.addToolStripMenuItem1,
-            this.transectionToolStripMenuItem,
             this.userToolStripMenuItem,
             this.toolStripMenuItem20,
             this.viewToolStripMenuItem,
@@ -823,7 +803,7 @@
             // 
             this.mainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.mainPanel.Location = new System.Drawing.Point(66, 30);
-            this.mainPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mainPanel.Margin = new System.Windows.Forms.Padding(2);
             this.mainPanel.Name = "mainPanel";
             this.mainPanel.Size = new System.Drawing.Size(974, 610);
             this.mainPanel.TabIndex = 9;
@@ -872,8 +852,6 @@
         private System.Windows.Forms.ToolStripMenuItem manageUserToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem userRegistrationToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem userToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem returnProductToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem transectionToolStripMenuItem;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem userProfileToolStripMenuItem;
