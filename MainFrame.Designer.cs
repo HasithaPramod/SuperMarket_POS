@@ -264,7 +264,7 @@
             // 
             this.returnProductToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("returnProductToolStripMenuItem.Image")));
             this.returnProductToolStripMenuItem.Name = "returnProductToolStripMenuItem";
-            this.returnProductToolStripMenuItem.Size = new System.Drawing.Size(209, 26);
+            this.returnProductToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.returnProductToolStripMenuItem.Text = "Return Product";
             // 
             // transectionToolStripMenuItem
@@ -346,19 +346,19 @@
             // 
             this.userProfileToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("userProfileToolStripMenuItem.Image")));
             this.userProfileToolStripMenuItem.Name = "userProfileToolStripMenuItem";
-            this.userProfileToolStripMenuItem.Size = new System.Drawing.Size(183, 26);
+            this.userProfileToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.userProfileToolStripMenuItem.Text = "User Profile";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(180, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(221, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("exitToolStripMenuItem.Image")));
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(183, 26);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.exitToolStripMenuItem.Text = "Sign Out";
             // 
             // addToolStripMenuItem1
@@ -382,6 +382,7 @@
             this.purchaseProductToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.A)));
             this.purchaseProductToolStripMenuItem.Size = new System.Drawing.Size(374, 26);
             this.purchaseProductToolStripMenuItem.Text = "Add Item / Purchase product";
+            this.purchaseProductToolStripMenuItem.Click += new System.EventHandler(this.purchaseProductToolStripMenuItem_Click);
             // 
             // productListToolStripMenuItem
             // 

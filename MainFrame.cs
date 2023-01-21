@@ -41,5 +41,11 @@ namespace hasitha
             this.mainPanel.Tag= f;
             f.Show();
         }
+
+        private void purchaseProductToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AddItem f3 = new AddItem();
+            f3.Show();
+        }
     }
 }
