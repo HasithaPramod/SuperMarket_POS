@@ -87,7 +87,7 @@
             dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             this.dtGrdvCustomerDetails.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dtGrdvCustomerDetails.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dtGrdvCustomerDetails.Size = new System.Drawing.Size(1122, 421);
+            this.dtGrdvCustomerDetails.Size = new System.Drawing.Size(1169, 514);
             this.dtGrdvCustomerDetails.TabIndex = 2;
             this.toolTip1.SetToolTip(this.dtGrdvCustomerDetails, "To Update Customer Info Please click on row");
             // 
@@ -113,7 +113,7 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.dtGrdvCustomerDetails);
-            this.splitContainer1.Size = new System.Drawing.Size(1122, 473);
+            this.splitContainer1.Size = new System.Drawing.Size(1169, 566);
             this.splitContainer1.SplitterDistance = 48;
             this.splitContainer1.TabIndex = 1;
             // 
@@ -234,7 +234,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1122, 473);
+            this.ClientSize = new System.Drawing.Size(1169, 566);
             this.Controls.Add(this.splitContainer1);
             this.Name = "CustomerDetails";
             this.Text = "CustomerDetails";
