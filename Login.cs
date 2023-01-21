@@ -102,5 +102,12 @@ namespace hasitha
             }
 
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            MainFrame f2 = new MainFrame();
+            f2.Show();
+            this.Hide();
+        }
     }
 }
