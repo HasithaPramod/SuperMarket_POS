@@ -128,13 +128,14 @@
             this.splitContainer1.SplitterDistance = 380;
             this.splitContainer1.TabIndex = 19;
             // 
-            // Form4
+            // Categories
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.splitContainer1);
-            this.Name = "Form4";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "Categories";
             this.Text = "Form4";
             ((System.ComponentModel.ISupportInitialize)(this.datagridcategories)).EndInit();
             this.splitContainer1.Panel1.ResumeLayout(false);

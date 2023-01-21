@@ -75,7 +75,7 @@
             this.dtGrdvCustomerDetails.DefaultCellStyle = dataGridViewCellStyle3;
             this.dtGrdvCustomerDetails.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dtGrdvCustomerDetails.Location = new System.Drawing.Point(0, 0);
-            this.dtGrdvCustomerDetails.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dtGrdvCustomerDetails.Margin = new System.Windows.Forms.Padding(2);
             this.dtGrdvCustomerDetails.Name = "dtGrdvCustomerDetails";
             this.dtGrdvCustomerDetails.ReadOnly = true;
             this.dtGrdvCustomerDetails.RowHeadersWidth = 51;
@@ -91,7 +91,7 @@
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer1.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
             this.splitContainer1.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.splitContainer1.Margin = new System.Windows.Forms.Padding(2);
             this.splitContainer1.Name = "splitContainer1";
             this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
@@ -118,7 +118,7 @@
             this.btnStoreCreditRewards.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Chartreuse;
             this.btnStoreCreditRewards.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnStoreCreditRewards.Location = new System.Drawing.Point(880, 2);
-            this.btnStoreCreditRewards.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnStoreCreditRewards.Margin = new System.Windows.Forms.Padding(2);
             this.btnStoreCreditRewards.Name = "btnStoreCreditRewards";
             this.btnStoreCreditRewards.Size = new System.Drawing.Size(8, 36);
             this.btnStoreCreditRewards.TabIndex = 31;
@@ -158,6 +158,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(883, 450);
             this.Controls.Add(this.splitContainer1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "StockDetails";
             this.Text = "StockDetails";
             ((System.ComponentModel.ISupportInitialize)(this.dtGrdvCustomerDetails)).EndInit();

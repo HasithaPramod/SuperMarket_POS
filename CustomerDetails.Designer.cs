@@ -81,13 +81,14 @@
             this.dtGrdvCustomerDetails.DefaultCellStyle = dataGridViewCellStyle3;
             this.dtGrdvCustomerDetails.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dtGrdvCustomerDetails.Location = new System.Drawing.Point(0, 0);
+            this.dtGrdvCustomerDetails.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dtGrdvCustomerDetails.Name = "dtGrdvCustomerDetails";
             this.dtGrdvCustomerDetails.ReadOnly = true;
             this.dtGrdvCustomerDetails.RowHeadersWidth = 51;
             dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             this.dtGrdvCustomerDetails.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dtGrdvCustomerDetails.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dtGrdvCustomerDetails.Size = new System.Drawing.Size(1169, 514);
+            this.dtGrdvCustomerDetails.Size = new System.Drawing.Size(877, 409);
             this.dtGrdvCustomerDetails.TabIndex = 2;
             this.toolTip1.SetToolTip(this.dtGrdvCustomerDetails, "To Update Customer Info Please click on row");
             // 
@@ -96,6 +97,7 @@
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer1.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
             this.splitContainer1.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.splitContainer1.Name = "splitContainer1";
             this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
@@ -113,8 +115,9 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.dtGrdvCustomerDetails);
-            this.splitContainer1.Size = new System.Drawing.Size(1169, 566);
+            this.splitContainer1.Size = new System.Drawing.Size(877, 460);
             this.splitContainer1.SplitterDistance = 48;
+            this.splitContainer1.SplitterWidth = 3;
             this.splitContainer1.TabIndex = 1;
             // 
             // btnDelete
@@ -128,9 +131,10 @@
             this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.ForeColor = System.Drawing.Color.White;
             this.btnDelete.Image = ((System.Drawing.Image)(resources.GetObject("btnDelete.Image")));
-            this.btnDelete.Location = new System.Drawing.Point(897, 1);
+            this.btnDelete.Location = new System.Drawing.Point(673, 1);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(196, 44);
+            this.btnDelete.Size = new System.Drawing.Size(147, 36);
             this.btnDelete.TabIndex = 34;
             this.btnDelete.Text = "Delete all records";
             this.btnDelete.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -145,9 +149,10 @@
             this.btnStoreCreditRewards.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnStoreCreditRewards.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Chartreuse;
             this.btnStoreCreditRewards.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnStoreCreditRewards.Location = new System.Drawing.Point(1174, 3);
+            this.btnStoreCreditRewards.Location = new System.Drawing.Point(880, 2);
+            this.btnStoreCreditRewards.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnStoreCreditRewards.Name = "btnStoreCreditRewards";
-            this.btnStoreCreditRewards.Size = new System.Drawing.Size(10, 44);
+            this.btnStoreCreditRewards.Size = new System.Drawing.Size(8, 36);
             this.btnStoreCreditRewards.TabIndex = 31;
             this.btnStoreCreditRewards.Text = "Store Credit Rewards";
             this.btnStoreCreditRewards.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -160,9 +165,10 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(365, 2);
+            this.label6.Location = new System.Drawing.Point(274, 2);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(101, 18);
+            this.label6.Size = new System.Drawing.Size(86, 15);
             this.label6.TabIndex = 33;
             this.label6.Text = "People Type";
             // 
@@ -173,9 +179,10 @@
             "All",
             "Customer",
             "Supplier"});
-            this.CombPeopleType.Location = new System.Drawing.Point(368, 22);
+            this.CombPeopleType.Location = new System.Drawing.Point(276, 18);
+            this.CombPeopleType.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CombPeopleType.Name = "CombPeopleType";
-            this.CombPeopleType.Size = new System.Drawing.Size(277, 24);
+            this.CombPeopleType.Size = new System.Drawing.Size(209, 21);
             this.CombPeopleType.TabIndex = 32;
             // 
             // label1
@@ -183,9 +190,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(19, 5);
+            this.label1.Location = new System.Drawing.Point(14, 4);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(113, 17);
+            this.label1.Size = new System.Drawing.Size(89, 13);
             this.label1.TabIndex = 31;
             this.label1.Text = "People Details";
             // 
@@ -200,9 +208,10 @@
             this.btnAddNewCustLink.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddNewCustLink.ForeColor = System.Drawing.Color.White;
             this.btnAddNewCustLink.Image = ((System.Drawing.Image)(resources.GetObject("btnAddNewCustLink.Image")));
-            this.btnAddNewCustLink.Location = new System.Drawing.Point(702, 2);
+            this.btnAddNewCustLink.Location = new System.Drawing.Point(526, 2);
+            this.btnAddNewCustLink.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAddNewCustLink.Name = "btnAddNewCustLink";
-            this.btnAddNewCustLink.Size = new System.Drawing.Size(176, 44);
+            this.btnAddNewCustLink.Size = new System.Drawing.Size(132, 36);
             this.btnAddNewCustLink.TabIndex = 30;
             this.btnAddNewCustLink.Text = "Add New Customer";
             this.btnAddNewCustLink.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -214,9 +223,10 @@
             // 
             this.txtCustomerSearch.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
             this.txtCustomerSearch.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.HistoryList;
-            this.txtCustomerSearch.Location = new System.Drawing.Point(22, 21);
+            this.txtCustomerSearch.Location = new System.Drawing.Point(16, 17);
+            this.txtCustomerSearch.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtCustomerSearch.Name = "txtCustomerSearch";
-            this.txtCustomerSearch.Size = new System.Drawing.Size(291, 22);
+            this.txtCustomerSearch.Size = new System.Drawing.Size(219, 20);
             this.txtCustomerSearch.TabIndex = 0;
             this.toolTip1.SetToolTip(this.txtCustomerSearch, "Customer Info Search by : ID, Name or City, Contact .... ");
             // 
@@ -232,10 +242,12 @@
             // 
             // CustomerDetails
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1169, 566);
+            this.ClientSize = new System.Drawing.Size(877, 460);
             this.Controls.Add(this.splitContainer1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "CustomerDetails";
             this.Text = "CustomerDetails";
             ((System.ComponentModel.ISupportInitialize)(this.dtGrdvCustomerDetails)).EndInit();

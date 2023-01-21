@@ -44,14 +44,15 @@ namespace hasitha
 
         private void purchaseProductToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            AddItem f3 = new AddItem();
-            f3.Show();
+            loadform(new AddItem());
+            /*AddItem f3 = new AddItem();
+            f3.Show();*/
         }
 
         private void userRegistrationToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            UserRegistration f4= new UserRegistration();
-            f4.Show();
+            loadform(new  UserRegistration());
+            
         }
 
         private void mainPanel_Paint(object sender, PaintEventArgs e)
@@ -73,9 +74,8 @@ namespace hasitha
 
         private void toolStripStatusLabel2_Click(object sender, EventArgs e)
         {
-            StockItems p = new StockItems();
-            this.Hide();
-            p.Show();
+            loadform(new  StockItems());
+            
             
         }
 
@@ -86,44 +86,33 @@ namespace hasitha
 
         private void categoriesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Categories f2 = new Categories();
-            this.Hide();
-            f2.Show();
+            loadform(new Categories());
+            
         }
 
         private void customerReportToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            CustomerDetails f3 = new CustomerDetails();
-            this.Hide();
-            f3.Show();
+            loadform(new  CustomerDetails());
         }
 
         private void workSheetToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            WorkSheet f4 = new WorkSheet();
-            this.Hide();
-            f4.Show();
+            loadform(new WorkSheet());
         }
 
         private void toolStripMenuItem17_Click(object sender, EventArgs e)
         {
-            StockItems f6 = new StockItems();
-            this.Hide();
-            f6.Show();
+            loadform(new StockItems());
         }
 
         private void toolStripStatusLabel9_Click(object sender, EventArgs e)
         {
-            Sales f7= new Sales();
-            this.Hide();
-            f7.Show();
+            loadform(new Sales());
         }
 
         private void salesReportDetailsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Sales q= new Sales();
-            this.Hide();
-            q.Show();
+            loadform(new Sales());
         }
 
         private void salesRegistertoolStripStatus_Click(object sender, EventArgs e)
@@ -133,16 +122,12 @@ namespace hasitha
 
         private void toolStripStatusLabel4_Click(object sender, EventArgs e)
         {
-            Employees f7= new Employees();
-            this.Hide();
-            f7.Show();
+            loadform(new Employees());
         }
 
         private void manageUserToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Employees f8= new Employees();
-            this.Hide();
-            f8.Show();
+            loadform(new Employees());
         }
     }
 }

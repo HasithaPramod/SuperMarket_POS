@@ -214,6 +214,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtItemSearchBar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "StockItems";
             this.Text = "StockItems";
             this.Load += new System.EventHandler(this.StockItems_Load);
