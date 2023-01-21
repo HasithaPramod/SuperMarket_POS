@@ -75,14 +75,14 @@
             this.dtGrdvCustomerDetails.DefaultCellStyle = dataGridViewCellStyle3;
             this.dtGrdvCustomerDetails.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dtGrdvCustomerDetails.Location = new System.Drawing.Point(0, 0);
-            this.dtGrdvCustomerDetails.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dtGrdvCustomerDetails.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dtGrdvCustomerDetails.Name = "dtGrdvCustomerDetails";
             this.dtGrdvCustomerDetails.ReadOnly = true;
             this.dtGrdvCustomerDetails.RowHeadersWidth = 51;
             dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             this.dtGrdvCustomerDetails.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dtGrdvCustomerDetails.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dtGrdvCustomerDetails.Size = new System.Drawing.Size(1177, 502);
+            this.dtGrdvCustomerDetails.Size = new System.Drawing.Size(883, 399);
             this.dtGrdvCustomerDetails.TabIndex = 2;
             this.toolTip1.SetToolTip(this.dtGrdvCustomerDetails, "To Update Customer Info Please click on row");
             // 
@@ -91,7 +91,7 @@
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer1.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
             this.splitContainer1.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.splitContainer1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.splitContainer1.Name = "splitContainer1";
             this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
@@ -104,8 +104,9 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.dtGrdvCustomerDetails);
-            this.splitContainer1.Size = new System.Drawing.Size(1177, 554);
+            this.splitContainer1.Size = new System.Drawing.Size(883, 450);
             this.splitContainer1.SplitterDistance = 48;
+            this.splitContainer1.SplitterWidth = 3;
             this.splitContainer1.TabIndex = 2;
             // 
             // btnStoreCreditRewards
@@ -116,10 +117,10 @@
             this.btnStoreCreditRewards.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnStoreCreditRewards.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Chartreuse;
             this.btnStoreCreditRewards.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnStoreCreditRewards.Location = new System.Drawing.Point(1173, 2);
-            this.btnStoreCreditRewards.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnStoreCreditRewards.Location = new System.Drawing.Point(880, 2);
+            this.btnStoreCreditRewards.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnStoreCreditRewards.Name = "btnStoreCreditRewards";
-            this.btnStoreCreditRewards.Size = new System.Drawing.Size(11, 44);
+            this.btnStoreCreditRewards.Size = new System.Drawing.Size(8, 36);
             this.btnStoreCreditRewards.TabIndex = 31;
             this.btnStoreCreditRewards.Text = "Store Credit Rewards";
             this.btnStoreCreditRewards.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -132,9 +133,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(15, 22);
+            this.label1.Location = new System.Drawing.Point(11, 18);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(103, 17);
+            this.label1.Size = new System.Drawing.Size(83, 13);
             this.label1.TabIndex = 31;
             this.label1.Text = "Stock Details";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -152,13 +154,12 @@
             // 
             // StockDetails
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1177, 554);
+            this.ClientSize = new System.Drawing.Size(883, 450);
             this.Controls.Add(this.splitContainer1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "StockDetails";
-            this.Text = "Form3";
+            this.Text = "StockDetails";
             ((System.ComponentModel.ISupportInitialize)(this.dtGrdvCustomerDetails)).EndInit();
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel1.PerformLayout();

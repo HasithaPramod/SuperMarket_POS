@@ -73,7 +73,10 @@ namespace hasitha
 
         private void toolStripStatusLabel2_Click(object sender, EventArgs e)
         {
-            loadform(new StockDetails());
+            StockItems p = new StockItems();
+            this.Hide();
+            p.Show();
+            
         }
 
         private void purchaseHistoryToolStripMenuItem_Click(object sender, EventArgs e)
@@ -104,9 +107,33 @@ namespace hasitha
 
         private void toolStripMenuItem17_Click(object sender, EventArgs e)
         {
-            AddCustormer f5 = new AddCustormer();
+            StockItems f6 = new StockItems();
             this.Hide();
-            f5.Show();
+            f6.Show();
+        }
+
+        private void toolStripStatusLabel9_Click(object sender, EventArgs e)
+        {
+            Sales f7= new Sales();
+            this.Hide();
+            f7.Show();
+        }
+
+        private void salesReportDetailsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void salesRegistertoolStripStatus_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStripStatusLabel4_Click(object sender, EventArgs e)
+        {
+            Employees f7= new Employees();
+            this.Hide();
+            f7.Show();
         }
     }
 }

@@ -30,16 +30,10 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainFrame));
-            this.profitLossReportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.salesReportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.viewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salesReportDetailsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.overviewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.saleChartToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.storeCreditRewardsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator13 = new System.Windows.Forms.ToolStripSeparator();
-            this.topSalesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem17 = new System.Windows.Forms.ToolStripMenuItem();
             this.customerReportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem20 = new System.Windows.Forms.ToolStripMenuItem();
@@ -103,39 +97,21 @@
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.toolTipInfo = new System.Windows.Forms.ToolTip(this.components);
             this.mainPanel = new System.Windows.Forms.Panel();
+            this.salesReportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.contextMenu_Home.SuspendLayout();
             this.contextStatus.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // profitLossReportToolStripMenuItem
-            // 
-            this.profitLossReportToolStripMenuItem.Name = "profitLossReportToolStripMenuItem";
-            this.profitLossReportToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.profitLossReportToolStripMenuItem.Text = "Profit Loss Report (- +) ";
-            // 
-            // salesReportToolStripMenuItem
-            // 
-            this.salesReportToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("salesReportToolStripMenuItem.Image")));
-            this.salesReportToolStripMenuItem.Name = "salesReportToolStripMenuItem";
-            this.salesReportToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.R)));
-            this.salesReportToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.salesReportToolStripMenuItem.Text = "Sales Report";
-            // 
             // viewToolStripMenuItem
             // 
             this.viewToolStripMenuItem.BackColor = System.Drawing.Color.Linen;
             this.viewToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.salesReportToolStripMenuItem,
             this.salesReportDetailsToolStripMenuItem,
-            this.profitLossReportToolStripMenuItem,
             this.toolStripSeparator3,
-            this.overviewToolStripMenuItem,
-            this.saleChartToolStripMenuItem,
-            this.storeCreditRewardsToolStripMenuItem,
-            this.toolStripSeparator13,
-            this.topSalesToolStripMenuItem});
+            this.salesReportToolStripMenuItem,
+            this.toolStripSeparator13});
             this.viewToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
             this.viewToolStripMenuItem.Size = new System.Drawing.Size(66, 24);
@@ -145,45 +121,19 @@
             // 
             this.salesReportDetailsToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("salesReportDetailsToolStripMenuItem.Image")));
             this.salesReportDetailsToolStripMenuItem.Name = "salesReportDetailsToolStripMenuItem";
-            this.salesReportDetailsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.salesReportDetailsToolStripMenuItem.Size = new System.Drawing.Size(203, 26);
             this.salesReportDetailsToolStripMenuItem.Text = "Sales Report Details";
+            this.salesReportDetailsToolStripMenuItem.Click += new System.EventHandler(this.salesReportDetailsToolStripMenuItem_Click);
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(221, 6);
-            // 
-            // overviewToolStripMenuItem
-            // 
-            this.overviewToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("overviewToolStripMenuItem.Image")));
-            this.overviewToolStripMenuItem.Name = "overviewToolStripMenuItem";
-            this.overviewToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.overviewToolStripMenuItem.Text = "Overview";
-            // 
-            // saleChartToolStripMenuItem
-            // 
-            this.saleChartToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("saleChartToolStripMenuItem.Image")));
-            this.saleChartToolStripMenuItem.Name = "saleChartToolStripMenuItem";
-            this.saleChartToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.saleChartToolStripMenuItem.Text = "Sales Chart";
-            // 
-            // storeCreditRewardsToolStripMenuItem
-            // 
-            this.storeCreditRewardsToolStripMenuItem.Name = "storeCreditRewardsToolStripMenuItem";
-            this.storeCreditRewardsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.storeCreditRewardsToolStripMenuItem.Text = "Store Credit & Rewards";
-            this.storeCreditRewardsToolStripMenuItem.Visible = false;
+            this.toolStripSeparator3.Size = new System.Drawing.Size(200, 6);
             // 
             // toolStripSeparator13
             // 
             this.toolStripSeparator13.Name = "toolStripSeparator13";
-            this.toolStripSeparator13.Size = new System.Drawing.Size(221, 6);
-            // 
-            // topSalesToolStripMenuItem
-            // 
-            this.topSalesToolStripMenuItem.Name = "topSalesToolStripMenuItem";
-            this.topSalesToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.topSalesToolStripMenuItem.Text = "Top Sales";
+            this.toolStripSeparator13.Size = new System.Drawing.Size(200, 6);
             // 
             // toolStripMenuItem17
             // 
@@ -576,6 +526,7 @@
             this.toolStripStatusLabel4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.toolStripStatusLabel4.ToolTipText = "Employees";
             this.toolStripStatusLabel4.VisitedLinkColor = System.Drawing.Color.Black;
+            this.toolStripStatusLabel4.Click += new System.EventHandler(this.toolStripStatusLabel4_Click);
             // 
             // toolStripStatusLabel5
             // 
@@ -610,6 +561,7 @@
             this.toolStripStatusLabel9.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.toolStripStatusLabel9.ToolTipText = "Sales Report";
             this.toolStripStatusLabel9.VisitedLinkColor = System.Drawing.Color.Black;
+            this.toolStripStatusLabel9.Click += new System.EventHandler(this.toolStripStatusLabel9_Click);
             // 
             // toolStripStatusLabel2
             // 
@@ -648,6 +600,7 @@
             this.salesRegistertoolStripStatus.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.salesRegistertoolStripStatus.ToolTipText = "Sales Register.";
             this.salesRegistertoolStripStatus.VisitedLinkColor = System.Drawing.Color.Black;
+            this.salesRegistertoolStripStatus.Click += new System.EventHandler(this.salesRegistertoolStripStatus_Click);
             // 
             // dockStyleToolStripMenuItem
             // 
@@ -769,6 +722,14 @@
             this.mainPanel.TabIndex = 9;
             this.mainPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.mainPanel_Paint);
             // 
+            // salesReportToolStripMenuItem
+            // 
+            this.salesReportToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("salesReportToolStripMenuItem.Image")));
+            this.salesReportToolStripMenuItem.Name = "salesReportToolStripMenuItem";
+            this.salesReportToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.R)));
+            this.salesReportToolStripMenuItem.Size = new System.Drawing.Size(203, 26);
+            this.salesReportToolStripMenuItem.Text = "Sales Report";
+            // 
             // MainFrame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -793,17 +754,10 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.ToolStripMenuItem profitLossReportToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem salesReportToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem viewToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salesReportDetailsToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
-        private System.Windows.Forms.ToolStripMenuItem overviewToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem saleChartToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem storeCreditRewardsToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator13;
-        private System.Windows.Forms.ToolStripMenuItem topSalesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem17;
         private System.Windows.Forms.ToolStripMenuItem customerReportToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem20;
@@ -867,5 +821,6 @@
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
         private System.Windows.Forms.ToolTip toolTipInfo;
         private System.Windows.Forms.Panel mainPanel;
+        private System.Windows.Forms.ToolStripMenuItem salesReportToolStripMenuItem;
     }
 }
