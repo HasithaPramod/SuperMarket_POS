@@ -53,5 +53,10 @@ namespace hasitha
             UserRegistration f4= new UserRegistration();
             f4.Show();
         }
+
+        private void mainPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
