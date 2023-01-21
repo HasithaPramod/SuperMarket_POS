@@ -58,5 +58,10 @@ namespace hasitha
         {
 
         }
+
+        private void MinimizertoolStripMenu_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }

@@ -210,10 +210,10 @@
             this.btnReset.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReset.Font = new System.Drawing.Font("Trebuchet MS", 8.25F, System.Drawing.FontStyle.Bold);
             this.btnReset.ForeColor = System.Drawing.SystemColors.Window;
-            this.btnReset.Location = new System.Drawing.Point(1005, 319);
+            this.btnReset.Location = new System.Drawing.Point(1005, 315);
             this.btnReset.Margin = new System.Windows.Forms.Padding(4);
             this.btnReset.Name = "btnReset";
-            this.btnReset.Size = new System.Drawing.Size(129, 34);
+            this.btnReset.Size = new System.Drawing.Size(129, 38);
             this.btnReset.TabIndex = 28;
             this.btnReset.Text = "Reset";
             this.btnReset.UseVisualStyleBackColor = false;
