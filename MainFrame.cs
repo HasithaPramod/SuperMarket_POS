@@ -80,5 +80,12 @@ namespace hasitha
         {
             loadform(new PurchaseHistory());
         }
+
+        private void categoriesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Categories f2 = new Categories();
+            this.Hide();
+            f2.Show();
+        }
     }
 }
